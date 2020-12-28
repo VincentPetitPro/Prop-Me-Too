@@ -10,9 +10,9 @@
             que de produits de premieres nécessités ouverts et accessibles.
         </p>
         <p>
-            Dans un second temps, il vous sera aussi possible d'aider å votre
+            Dans un second temps, il vous sera aussi possible d'aider à votre
             échelle soit en déposant de Ia nourriture aux points indiqués soit
-            en renseignant l'adresse de votre dépöt.
+            en renseignant l'adresse de votre dépôt.
         </p>
         <p>
             Egalement, un espace de don vous sera disponible afin d'aider au
