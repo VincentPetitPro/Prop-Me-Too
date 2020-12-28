@@ -1,25 +1,31 @@
 <template>
     <q-layout view="lHh Lpr lFf">
         <q-header elevated class="bg-dark text-font">
-            <div class="row justify-around">
-                <q-img src="../assets/info.png" style="width:10vw"></q-img>
-                <q-img
-                    src="../assets/nourriture.png"
-                    style="width:10vw"
-                ></q-img>
-                <q-img
-                    src="../assets/douche.png"
-                    style="width:10vw"
-                ></q-img>
-                <q-img
-                    src="../assets/toilette.png"
-                    style="width:10vw"
-                ></q-img>
-                <q-img
-                    src="../assets/necessite.png"
-                    style="width:10vw"
-                ></q-img>
-            </div>
+            <q-btn-group spread flat unelevated
+                ><q-btn to="Informations"
+                    ><q-img src="../assets/info.png" style="width:7vw"></q-img
+                ></q-btn>
+                <q-btn to=""
+                    ><q-img src="../assets/douche.png" style="width:7vw"></q-img
+                ></q-btn>
+                <q-btn to=""
+                    ><q-img
+                        src="../assets/nourriture.png"
+                        style="width:7vw"
+                    ></q-img
+                ></q-btn>
+                <q-btn to=""
+                    ><q-img
+                        src="../assets/toilette.png"
+                        style="width:7vw"
+                    ></q-img
+                ></q-btn>
+                <q-btn to=""
+                    ><q-img
+                        src="../assets/necessite.png"
+                        style="width:7vw"
+                    ></q-img></q-btn
+            ></q-btn-group>
         </q-header>
 
         <q-page-container>
