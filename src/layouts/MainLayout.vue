@@ -14,7 +14,7 @@
                         style="width:7vw"
                     ></q-img
                 ></q-btn>
-                <q-btn to=""
+                <q-btn to="Toilettes"
                     ><q-img
                         src="../assets/toilette.png"
                         style="width:7vw"
