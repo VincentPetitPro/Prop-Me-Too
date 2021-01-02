@@ -8,12 +8,12 @@
                 disableDefaultUi: true,
                 streetViewControl: false
             }"
+            ><gmap-marker
+                v-for="(m, index) in this.$data.markers"
+                :key="index"
+                :position="m.position"
+            ></gmap-marker
         ></gmap-map>
-        <gmap-marker
-            v-for="(m, index) in this.$data.markers"
-            :key="index"
-            :position="m.position"
-        ></gmap-marker>
     </q-page>
 </template>
 
