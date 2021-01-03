@@ -1,10 +1,10 @@
 <template>
-    <q-page> </q-page>
+    <q-page></q-page>
 </template>
 
 <script>
 export default {
-    name: "MainMap",
+    name: "Douches",
     data() {
         return {};
     }

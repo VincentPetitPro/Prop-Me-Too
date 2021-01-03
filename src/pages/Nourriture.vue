@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <q-page class="flex flex-center">
         <gmap-map
             :center="this.$data.center"
@@ -15,10 +16,14 @@
             ></gmap-marker
         ></gmap-map>
     </q-page>
+=======
+    <q-page></q-page>
+>>>>>>> 9710ce045a9d1cf860df4db9f27c10dd79930159
 </template>
 
 <script>
 export default {
+<<<<<<< HEAD
     name: "PageIndex",
     data() {
         return {
@@ -32,13 +37,22 @@ export default {
                 }
             ]
         };
+=======
+    name: "Nourriture",
+    data() {
+        return {};
+>>>>>>> 9710ce045a9d1cf860df4db9f27c10dd79930159
     }
 };
 </script>
 
+<<<<<<< HEAD
 <style scoped>
 .vue-map-container {
     height: 92.5vh;
     width: 100vw;
 }
 </style>
+=======
+<style scoped></style>
+>>>>>>> 9710ce045a9d1cf860df4db9f27c10dd79930159
