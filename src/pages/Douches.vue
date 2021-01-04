@@ -7,7 +7,8 @@
                 fullscreenControl: false,
                 disableDefaultUi: true,
                 streetViewControl: false,
-                mapTypeControl: false
+                mapTypeControl: false,
+                clickableIcons: false
             }"
         >
             <gmap-info-window

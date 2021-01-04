@@ -31,7 +31,7 @@
 
 <script>
 export default {
-    name: "Necessites",
+    name: "MainMap",
     data() {
         return {
             center: { lat: 48.85450510484693, lng: 2.3465948626550723 },
@@ -66,7 +66,7 @@ export default {
             }
         },
         getMarkers() {
-            this.$axios.get("/necessites").then(response => {
+            this.$axios.get("/mainmap").then(response => {
                 let res = response.data;
 
                 for (let i = 0; i < res.length; i++) {
