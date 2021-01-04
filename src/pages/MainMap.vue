@@ -93,6 +93,6 @@ export default {
     height: 100%;
     width: 100%;
     position: absolute;
-    border: 0px;
+    border: 0;
 }
 </style>
