@@ -1,5 +1,6 @@
 # Prop Me Too (propmetoo)
 
+Quasar & Vue.js & Node js & MySQL SPA
 
 
 ## Install the dependencies
@@ -10,6 +11,11 @@ npm install
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
+```
+
+### Start the node server (to open in a separate shell window than previously)
+```bash
+node server/api
 ```
 
 ### Lint the files
