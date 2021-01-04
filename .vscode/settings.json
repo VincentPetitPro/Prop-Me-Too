@@ -3,5 +3,20 @@
   "vetur.format.enable": false,
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
   
-  "vetur.experimental.templateInterpolationService": true
+  "vetur.experimental.templateInterpolationService": true,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "prop-me-too",
+      "database": "prop-me-too",
+      "username": "root",
+      "password": "159753"
+    }
+  ]
 }

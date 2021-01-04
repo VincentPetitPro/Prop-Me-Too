@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import * as VueGoogleMaps from "vue2-google-maps";
 import routes from "./routes";
+import { axiosInstance } from "boot/axios.js";
 
 Vue.use(VueRouter);
 Vue.use(VueGoogleMaps, {
@@ -10,6 +11,7 @@ Vue.use(VueGoogleMaps, {
         librairies: "places"
     }
 });
+Vue.use(axiosInstance);
 
 /*
  * If not building with SSR mode, you can
