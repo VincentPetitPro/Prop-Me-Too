@@ -7,7 +7,7 @@ const port = 8081;
 const client = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "159753",
+    password: "Mollossesdu924!",
     database: "prop-me-too"
 });
 client.connect(err => {
@@ -32,6 +32,22 @@ app.get("/api", (req, res) => {
 
 app.get("/api/nourriture", (req, res) => {
     let sql = "SELECT * FROM services WHERE description = 'Nourriture'";
+    client.query(sql, (err, result) => {
+        if (err) throw err;
+        res.send(result);
+    });
+});
+
+app.get("/api/necessites", (req, res) => {
+    let sql = "SELECT * FROM services WHERE description = 'Necessite'";
+    client.query(sql, (err, result) => {
+        if (err) throw err;
+        res.send(result);
+    });
+});
+
+app.get("/api/douches", (req, res) => {
+    let sql = "SELECT * FROM services WHERE description = 'Douche'";
     client.query(sql, (err, result) => {
         if (err) throw err;
         res.send(result);
