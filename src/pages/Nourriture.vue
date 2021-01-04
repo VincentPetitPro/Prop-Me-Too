@@ -72,8 +72,8 @@ export default {
                     let marker = { infoText: "", position: { lat: 0, lng: 0 } };
                     marker.infoText = res[i].name;
                     marker.position = {
-                        lat: res[i].latitude,
-                        lng: res[i].longitude
+                        lat: Number(res[i].latitude),
+                        lng: Number(res[i].longitude)
                     };
 
                     this.markers.push(marker);
@@ -95,4 +95,3 @@ export default {
     border: 0px;
 }
 </style>
-
