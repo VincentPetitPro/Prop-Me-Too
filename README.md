@@ -8,6 +8,10 @@ Quasar(2.1.6) & Vue.js(2.6.12) & Node.js(12.16.2) & MySQL(8.0) SPA
 npm install
 ```
 
+```
+npm install -g @quasar/cli
+```
+
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 
 ```bash
