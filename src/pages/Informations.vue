@@ -18,6 +18,11 @@
             Egalement, un espace de don vous sera disponible afin d'aider au
             mieux nos associations partenaires.
         </p>
+        <p>Nos amitiés chaleureuses,</p>
+        <p>
+            Emma Bitton, Solène Vassent, Vincent Petit, Victor Bonneff et Julien
+            Mirgaine
+        </p>
         <q-img src="..\assets\logo.png" style="width: 10vw"></q-img>
     </q-page>
 </template>

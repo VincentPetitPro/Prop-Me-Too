@@ -39,13 +39,14 @@ export default {
     width: 35vw;
 }
 h3 {
+    font-size: 8vh;
     padding: 0;
-    margin: 1vh;
+    margin: 0vh;
     font-weight: bold;
 }
 p {
     font-size: 2vw;
     padding: 0;
-    margin: 2vh;
+    margin: 1vh;
 }
 </style>
